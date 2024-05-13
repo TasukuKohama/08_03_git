@@ -3,20 +3,20 @@
 起動
 
 ```bash
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 gitのバージョン
 
 ```bash
-docker-compose exec myubuntu git --version
+docker compose exec myubuntu git --version
 ```
 
 gitの設定
 
 ```bash
-docker-compose exec myubuntu bash
+docker compose exec myubuntu bash
 git config --global user.name "Your Name"
 git config --global user.email your@email.address.com
 ```
@@ -74,11 +74,5 @@ git branch branch_name
 停止
 
 ```bash
-docker-compose down
-```
-
-または
-
-```bash
-docker-compose down --rmi all --volumes --remove-orphans
+docker compose down
 ```

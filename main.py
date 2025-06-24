@@ -1,7 +1,7 @@
 
 
 def myfunc(x, y):
-    z = 2 * x - y + 1
+    z = 2 * x - y + 100
     return z
 
 
@@ -12,6 +12,7 @@ def myfunc_3(a):
 
 def myfunc_4(a):
     z = a[1] + a[2] + a[3] - a[4]
+
 
 
 def main():
